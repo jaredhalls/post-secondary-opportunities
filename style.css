@@ -1,0 +1,161 @@
+html {
+  overflow-x: hidden;
+}
+
+.subheader, html {
+  height: 100%;
+  width: 100%;
+  margin: 0;
+}
+
+body {
+  background-color: rgb(6, 11, 26);
+  height: 100%;
+  width: 100%;
+  margin: 0;
+}
+
+main {
+  height: 100%;
+  padding: 16px;
+}
+
+.title {
+  position: absolute;
+  top: 40%;
+  left: 50%;
+  transform: translate(-50%);
+  color: #FFFFFF;
+  font-size: 1.5em;
+  font-family: -apple-system, BlinkMacSystemFont, "Roboto", "Helvetica Neue", "Helvetica", sans-serif;
+  white-space: nowrap;
+}
+
+.title-img {
+  position: relative;
+  background-image: url("https://static.pexels.com/photos/110854/pexels-photo-110854.jpeg");
+  height: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  filter: blur(12px);
+  transform: scale(1.03);
+}
+
+#subheader-table {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%);
+}
+
+#subheader-table th {
+  color: white;
+  padding: 20px;
+  font-family: -apple-system, BlinkMacSystemFont, "Roboto", "Helvetica Neue", "Helvetica", sans-serif;
+  font-size: 1.5em;
+}
+
+#subheader-table a, #navbar-table a {
+  color: #DDDDDD;
+  text-decoration: none;
+}
+
+#subheader-table a:hover, #navbar-table th a:hover {
+  color: white;
+}
+
+.posts {
+  font-family: -apple-system, BlinkMacSystemFont, "Roboto", "Helvetica Neue", "Helvetica", sans-serif;
+  color: #FFFFFF;
+}
+
+.header {
+  font-family: -apple-system, BlinkMacSystemFont, "Roboto", "Helvetica Neue", "Helvetica", sans-serif;
+  background: rgb(21, 15, 66);
+  color: #FFFFFF;
+  height: 8%;
+}
+
+.header h2 {
+  float: left;
+  margin-left: 10px;
+  vertical-align: middle;
+  position: relative;
+}
+
+#navbar-table {
+  border-collapse: separate;
+  border-spacing: 2px;
+  position: relative;
+  white-space: nowrap;
+  margin-left: auto;
+  text-align: right;
+}
+
+#navbar-table th{
+  color: white;
+  padding: 20px;
+  font-family: -apple-system, BlinkMacSystemFont, "Roboto", "Helvetica Neue", "Helvetica", sans-serif;
+  font-size: 18px;
+}
+
+.sticky {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+}
+
+.sticky + main {
+  padding-top: 100px;
+}
+
+.accordion {
+    background-color: #eee;
+    color: #444;
+    cursor: pointer;
+    padding: 18px;
+    width: 100%;
+    text-align: left;
+    border: none;
+    outline: none;
+    transition: 0.4s;
+}
+
+.active, .accordion:hover {
+    background-color: #ccc;
+}
+
+.panel {
+    padding: 0 18px;
+    background-color: white;
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 0.2s ease-out;
+    font-family: -apple-system, BlinkMacSystemFont, "Roboto", "Helvetica Neue", "Helvetica", sans-serif;
+    color: #FFFFFF;
+}
+
+.panel a {
+  color: #000000;
+  text-decoration: none;
+}
+
+.accordion:after {
+    content: '\02795';
+    font-size: 13px;
+    color: #777;
+    float: right;
+    margin-left: 5px;
+}
+
+.active:after {
+    content: "\2796";
+}
+
+#resources h2, a {
+  font-family: -apple-system, BlinkMacSystemFont, "Roboto", "Helvetica Neue", "Helvetica", sans-serif;
+  color: #FFFFFF;
+  text-decoration: none;
+}
