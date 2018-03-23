@@ -1,7 +1,7 @@
 window.onscroll = function() {
   myFunction()
 };
-var header = document.getElementById("myHeader");
+var header = document.getElementById("navHeader");
 var sticky = header.offsetTop;
 
 function myFunction() {

@@ -1,3 +1,9 @@
+* {
+  font-family: -apple-system, BlinkMacSystemFont, "Roboto", "Helvetica Neue", "Helvetica", sans-serif !important;
+  color: white;
+  text-decoration: none;
+}
+
 .subheader, html {
   height: 100%;
   width: 100%;
@@ -12,7 +18,7 @@ body {
 }
 
 .subheader {
-  overflow-x: hidden;
+  overflow: hidden;
 }
 
 main {
@@ -25,15 +31,13 @@ main {
   top: 40%;
   left: 50%;
   transform: translate(-50%);
-  color: #FFFFFF;
   font-size: 1.5em;
-  font-family: -apple-system, BlinkMacSystemFont, "Roboto", "Helvetica Neue", "Helvetica", sans-serif;
   white-space: nowrap;
 }
 
 .title-img {
   position: relative;
-  background-image: url("https://static.pexels.com/photos/110854/pexels-photo-110854.jpeg");
+  background-image: url("background-lowres.jpeg");
   height: 100%;
   background-position: center;
   background-repeat: no-repeat;
@@ -50,31 +54,21 @@ main {
 }
 
 #subheader-table th {
-  color: white;
   padding: 20px;
-  font-family: -apple-system, BlinkMacSystemFont, "Roboto", "Helvetica Neue", "Helvetica", sans-serif;
   font-size: 1.5em;
 }
 
 #subheader-table a, #navbar-table a {
   color: #DDDDDD;
-  text-decoration: none;
 }
 
-#subheader-table a:hover, #navbar-table th a:hover {
+#subheader-table a:hover, #navbar-table a:hover {
   color: white;
 }
 
-.posts {
-  font-family: -apple-system, BlinkMacSystemFont, "Roboto", "Helvetica Neue", "Helvetica", sans-serif;
-  color: #FFFFFF;
-}
-
 .header {
-  font-family: -apple-system, BlinkMacSystemFont, "Roboto", "Helvetica Neue", "Helvetica", sans-serif;
   background: rgb(21, 15, 66);
-  color: #FFFFFF;
-  height: 8%;
+  height: auto;
 }
 
 .header h2 {
@@ -94,9 +88,7 @@ main {
 }
 
 #navbar-table th{
-  color: white;
   padding: 20px;
-  font-family: -apple-system, BlinkMacSystemFont, "Roboto", "Helvetica Neue", "Helvetica", sans-serif;
   font-size: 18px;
 }
 
@@ -111,7 +103,7 @@ main {
   padding-top: 100px;
 }
 
-.accordion {
+.collapsible {
     background-color: #eee;
     color: #444;
     cursor: pointer;
@@ -123,7 +115,7 @@ main {
     transition: 0.4s;
 }
 
-.active, .accordion:hover {
+.active, .collapsible:hover {
     background-color: #ccc;
 }
 
@@ -133,8 +125,6 @@ main {
     max-height: 0;
     overflow: hidden;
     transition: max-height 0.2s ease-out;
-    font-family: -apple-system, BlinkMacSystemFont, "Roboto", "Helvetica Neue", "Helvetica", sans-serif;
-    color: #FFFFFF;
 }
 
 .panel a {
@@ -142,7 +132,7 @@ main {
   text-decoration: none;
 }
 
-.accordion:after {
+.collapsible:after {
     content: '\02795';
     font-size: 13px;
     color: #777;
@@ -152,10 +142,4 @@ main {
 
 .active:after {
     content: "\2796";
-}
-
-#resources h2, a {
-  font-family: -apple-system, BlinkMacSystemFont, "Roboto", "Helvetica Neue", "Helvetica", sans-serif;
-  color: #FFFFFF;
-  text-decoration: none;
 }
