@@ -1,8 +1,12 @@
+/* GLobal properties. */
+
 * {
   font-family: -apple-system, BlinkMacSystemFont, "Roboto", "Helvetica Neue", "Helvetica", sans-serif !important;
   color: white;
   text-decoration: none;
 }
+
+/* Properties for HTML elements. */
 
 .subheader, html {
   height: 100%;
@@ -17,13 +21,15 @@ body {
   margin: 0;
 }
 
-.subheader {
-  overflow: hidden;
-}
-
 main {
   height: 100%;
   padding: 16px;
+}
+
+/* Properties for subheader. */
+
+.subheader {
+  overflow: hidden;
 }
 
 .title {
@@ -66,6 +72,8 @@ main {
   color: white;
 }
 
+/* Properties for navigation bar (header). */
+
 .header {
   background: rgb(21, 15, 66);
   height: auto;
@@ -103,6 +111,8 @@ main {
   padding-top: 100px;
 }
 
+/* Properties for collapsible element. */
+
 .collapsible {
     background-color: #eee;
     color: #444;
@@ -133,7 +143,7 @@ main {
 }
 
 .collapsible:after {
-    content: '\02795';
+    content: "\02795";
     font-size: 13px;
     color: #777;
     float: right;
