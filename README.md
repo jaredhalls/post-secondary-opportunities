@@ -1,2 +1,2 @@
-# [Michael‘s ICS3U Blog](https://michael-lam8.github.io/ICS3U-Blog-Michael/)
-An amazing blog with amazing posts. Vinay.
+# [Post Secondary Opportunities Interviews](https://jaredhalls.github.io/post-secondary-opportunities/)
+A website containing interviews related to post secondary opportunities in computer science.
